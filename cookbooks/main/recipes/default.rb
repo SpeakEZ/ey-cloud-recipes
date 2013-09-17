@@ -1,3 +1,4 @@
+include_recipe "s3cmd"
 #execute "testing" do
 #  command %Q{
 #    echo "i ran at #{Time.now}" >> /root/cheftime
